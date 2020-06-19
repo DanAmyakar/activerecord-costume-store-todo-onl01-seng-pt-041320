@@ -10,5 +10,6 @@ class CostumeStores < ActiveRecord::Migration
       t.bool :in_business
       t.timestamp :opening_time
       t.timestamp :closing_time
+    end
   end
 end
